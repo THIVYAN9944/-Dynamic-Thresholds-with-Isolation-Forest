@@ -86,3 +86,4 @@ The `Evaluation Report` page shows simulated results highlighting a 98.5% detect
 ## 18. Future Improvements
 - Implement machine learning for dynamic thresholds (e.g., Isolation Forest).
 - Enhance the recommendation engine with LLM-based root cause analysis.
+# -Dynamic-Thresholds-with-Isolation-Forest
