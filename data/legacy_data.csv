@@ -1,0 +1,6 @@
+timestamp,location_name,reported_issue,severity,engineer_notes,status,resolution_time_hrs
+2023-01-15T09:30:00,Classroom Block A,Internet slow,Medium,Checked router. Seems fine.,Resolved,4.5
+2023-01-16T10:15:00,Hostel Block,No Wi-Fi,High,AP was down. Restarted.,Resolved,2.0
+2023-01-17T14:45:00,Laboratory,App timeout,Medium,Server issue.,Resolved,24.0
+2023-01-18T11:00:00,Event Area,Connection dropping,High,Too many users.,Resolved,6.0
+2023-01-19T08:20:00,Office,Video call lagging,Low,Could not reproduce.,Closed without fix,48.0
