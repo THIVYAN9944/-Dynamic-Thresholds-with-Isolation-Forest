@@ -5,3 +5,5 @@ __pycache__/
 test.db
 .DS_Store
 .env
+*.pkl
+*.db

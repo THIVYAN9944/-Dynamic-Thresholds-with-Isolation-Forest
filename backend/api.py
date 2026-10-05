@@ -47,7 +47,7 @@ def check_and_create_incident(db: Session, location_id: int):
             "app_response_time_ms": a.app_response_time_ms
         })
         
-    status, anomalies = detection.detect_anomaly_ml(current_ml_metrics, historical_data)
+    status, anomalies = detection.detect_anomaly_ml(current_ml_metrics, historical_data, location_id=location_id)
     
     # Check if there is an active incident for this location
     active_incident = db.query(models.Incident).filter(
